@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1f1f1f;
+}
+
+.content {
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+    top: 10vh;
+    display: block;
+    margin: auto;
+}
+
+.play {
+    position: relative;
+    width: fit-content;
+    display: block !important;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100px;
+}
+
+.progress {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-radius: 0 !important;
+}
+
+.error {
+    opacity: 0;
+}
