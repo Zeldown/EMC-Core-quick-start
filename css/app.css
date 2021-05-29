@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: #1f1f1f;
+    background: white;
 }
 
 .content {
     position: relative;
     width: 70vw;
     height: 80vh;
-    top: 10vh;
+    top: 1vh;
     display: block;
     margin: auto;
 }
@@ -28,6 +28,10 @@ body {
     width: 100%;
     left: 0;
     border-radius: 0 !important;
+}
+
+.progress-bar {
+    transition: all .2s;
 }
 
 .error {
